@@ -4,46 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Storefront</title>
-    <link rel="stylesheet" ref="text/css" href="main.css">
+    <title>JavaScript</title>
+    <link rel="stylesheet" ref="text/css" href="index.css">
+    <link rel="stylesheet" ref="text/css" href="animated.css">
 </head>
 <body>
-    <!--REQUIREMENTS: 
-        B): <header>, <nav>, <section>, <a>, <footer>, <article>, <sidebar> 
-        C): Must make use of at least one CSS pseudo-class ( :hover for example)  
-        D): Must have body content informing the user about the topics listed below
-        E): Links in nav must be able to direct users to the matching topic sections
-        F): Must have at least 3 educational programming links on the site - these links should open in a new tab
-        G): Must make use of at least one AnimateCSS animation
-        
-        CONTENT:
-        A): You must include and describe at least 3 of the following 5 concepts within your webpage: 
-                - Functions
-                - Objects
-                - Arrays
-                - For loops
-                - Conditionals
-     -->
-
-     <!--NAVBAR-->
-     <nav>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">News</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">About</a></li>
-        </ul>
-    </nav>
    
-    
+    <!--HEADER-->
+     <header>
+        <section id="header">
+            <h1 class="animated bounceInDown">
+                <em>JavaScript</em>
+            </h1>
+        
+        
+            <nav id="navbar">
+                <!-- <ul>
+                    <li><a href="">Functions</a></li>
+                    <li><a href="">Objects</a></li>
+                    <li><a href="">Arrays</a></li>
+                </ul> -->
+                <ul id="navbar">
+                    <li><a href="#functions" class="navLink"><em>FUNCTIONS</em></a></li>
+                    <li><a href="#objects"  class="navLink"><em>OBJECTS</em></a></li>
+                    <li><a href="#arrays"  class="navLink"><em>ARRAYS</em></a></li>
+                </ul>
+            </nav>    
+    </header>
 
-     <!--HEADER-->
-
+    <div id="sidebar">
+        <!-- <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div> -->
+        <ul>
+            <li><a target="_blank" href="https://www.w3schools.com/js/default.asp" class="sidebarLink">W3 Schools</a></li>
+            <li><a target="_blank" href="https://github.com/topics/javascript" class="sidebarLink">Git Hub JS</a></li>
+            <li><a target="_blank" href="https://www.elevenfifty.org/" class="sidebarLink">Eleven Fifty</a></li>
+        </ul>
+    </div>
 
      <!--MAIN CONTENT-->
+     <section id="mainContent">
+        <article class="infoBox">
+            <a id="functions"></a>
+            <header style="text-align: center; background-color: gray;">
+            <h2>Functions</h2>
+            </header>
+            <p>Generally speaking, a function is a "subprogram" that can be called by code external (or internal in the case of recursion) to the function. Like the program itself, a function is composed of a sequence of statements called the function body. Values can be passed to a function, and the function will return a value.
+            In JavaScript, functions are first-class objects, because they can have properties and methods just like any other object. What distinguishes them from other objects is that functions can be called. In brief, they are Function objects.</p>
+        </article>
+        <article class="infoBox">
+            <a id="objects"></a>
+            <header style="text-align: center; background-color: gray;">
+            <h2>Objects</h2>
+            </header>
+            <p>
+                    Objects are used to store keyed collections of various data and more complex entities. In JavaScript, objects penetrate almost every aspect of the language. So we must understand them first before going in-depth anywhere else.
+                    An object can be created with figure brackets {…} with an optional list of properties. A property is a “key: value” pair, where key is a string (also called a “property name”), and value can be anything. 
+                    We can imagine an object as a cabinet with signed files. Every piece of data is stored in its file by the key. It’s easy to find a file by its name or add/remove a file.
+            </p>
+        </article>
+        <article class="infoBox">
+            <a id="arrays"></a>
+            <header style="text-align: center; background-color: gray;">
+            <h2>Arrays</h2>
+            </header>
+            <p>
+                JavaScript arrays are used to store multiple values in a single variable.  An array is a special variable, which can hold more than one value at a time.  An array can hold many values under a single name, and you can access the values by referring to an index number.
+                Arrays are often used when we want to store list of elements and access them by a single variable.
+            </p>
+        </article>
+    </section>
+
+        <article style="width: 20%; float: left; background-color: black;">
+            <div></div>
+        </article>
 
 
-     <!--FOOTER-->
+     <!--FOOTER-->e
+     <section id="footer">
+            <footer>
+                <p>Made by Matt Hawley @ ElevenFifty Academy</p>
+            </footer>
+
+     </section>
 
 </body>
 </html>

@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background: teal;
+    padding: 20px 0px 20px
+}
+
+h1 {
+    font-size: 750%;
+    position: relative;
+    left: 30vw;
+    top: 2vh;
+    font-weight: 200;
+    max-width: 40%;
+    font-family: 'Lucida Sans';
+    text-align: center;
+    
+}
+
+#navbar {
+    font-size: 140%;
+    top: 80px;
+    padding: 15px 00px 15px 0px;
+    word-spacing: 100px;
+    
+}
+
+#navLinks {
+    padding: 60px 120px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0 2px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+#sidebar{
+    position: fixed;
+    width: 12%;
+    height: 100%;
+    background-color: black;
+    list-style: none;
+    padding: 0px 0px 0px 40px;
+}
+
+#sidebar li{
+    color: white;
+    font-size: 30px;
+    padding: 10px 40px 40px 0px;
+    border-bottom: 1px gray;
+    text-align: center;
+}
+
+.toggle-btn{
+    position: absolute;
+    left: 120%;
+    top: 15px;
+}
+
+.toggle-btn span {
+    display: block;
+    color: black;
+    width: 30px;
+    height: 5px;
+}
+/* #sidebarwrapper {
+    float: left;
+    margin-left: 180px;
+    width: 40px;
+    height: 70px;
+    text-align: center; 
+}*/
+
+/* #sidebarLinks {
+    height: 35vh;
+    width: 12vw;
+    background-color: rgb(128, 30, 8);
+    position: relative;
+    top: 4vh;
+    left: 20px;
+    border-radius: 4px;
+    border: 2px;
+    text-transform: uppercase;
+    margin-top: 2vh;
+    padding-top: 40px;
+    list-style-type: none;
+    text-decoration: none;} */
+
+#mainContent {
+    max-width: 65vw;
+    margin: 5vw 5vw 5vw 60vw;
+    text-align: center;
+    /* padding: 10px 100px 60px 0px; */
+    /* background-color: gray; */
+}
+
+.infoBox {
+    max-width: 100%;
+    margin: 10vh 0 50vh 0;
+}
+
+.infoBox h2 {
+    text-align: center;
+    margin-right: 3vw;
+    font-size: 240%;
+    font-weight: 600;
+    text-transform: uppercase
+}
+
+.infoBox p {
+    width: 100%;
+    /* margin: auto; */
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(1, 1, 19);
+    overflow: hidden;
+
+  }
+
+li {
+    float: left; 
+  }
+
+li a {
+    display: block;
+    /* padding: 20px 220px; */
+    text-decoration: none;
+    color: white; 
+  }
+
+li a:hover {
+    background-color: gray;
+}
+
+#footer {
+    background-color: gray;
+    color: black;
+    text-align: right;
+}
